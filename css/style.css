@@ -33,7 +33,7 @@ body, html {
 }
 
 .title {
-  font-family: Norwester;
+  font-family: Norwester, Open Sans, sans-serif;
   font-weight: normal;
   position: relative;
   margin-top: 200px;

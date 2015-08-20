@@ -29,7 +29,7 @@ body, html {
   width: 100%;
   margin: 0;
   font-family: Raleway, Open Sans, sans-serif;
-  font-size: 16px;
+  font-size: 11px;
 }
 
 .title {
@@ -94,7 +94,7 @@ p {
 }
 
 li {
-  width: 400px;
+  width: 100%;
   display: inline-block;
   position: relative;
   padding: 20px;
@@ -173,7 +173,7 @@ li p {
 .screenshots img {
   position: relative;
   margin: 0 auto;
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 
@@ -223,31 +223,42 @@ li p {
 }
 
 @media (min-width: 600px) {
-    section {
-      padding: 120px;
-    }
+  body, html {
+    font-size: 16px;
+  }
 
-    h1 {
-      font-size: 9em;
-    }
+  section {
+    padding: 120px;
+  }
 
+  h1 {
+    font-size: 9em;
+  }
 
-    .title img {
-      position: relative;
-      bottom: auto;
-      left: auto;
-      transform: none;
-      height: 120px;
-      padding: 0 10px;
-      width: auto;
-    }
+  li {
+    width: 400px;
+  }
 
-    .title {
-      font-size: 9em;
-      margin-top: 0px;
-    }
+  .title img {
+    position: relative;
+    bottom: auto;
+    left: auto;
+    transform: none;
+    height: 120px;
+    padding: 0 10px;
+    width: auto;
+  }
 
-    #statement-text h1 {
-      display: none;
-    }
+  .title {
+    font-size: 9em;
+    margin-top: 0px;
+  }
+
+  .screenshots img {
+    width: 300px;
+  }
+
+  #statement-text h1 {
+    display: none;
+  }
 }

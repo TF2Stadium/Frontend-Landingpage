@@ -197,6 +197,11 @@ li p {
   background-size: auto 60px;
 }
 
+.blog {
+  background-image: url(../assets/img/blog.png);
+  background-size: auto 60px;
+}
+
 .fade-in-slow {
   opacity: 0;
   animation: fadeIn 1s ease-out;

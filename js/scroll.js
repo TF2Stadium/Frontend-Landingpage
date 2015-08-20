@@ -1,5 +1,5 @@
 var options = [
-  {selector: '#contact-list', offset: 100, callback: "showStaggeredChildren('#contact-list', 'li', 'bottom')" },
+  {selector: '#links-list', offset: 100, callback: "showStaggeredChildren('#links-list', 'li', 'bottom')" },
   {selector: '#statement-text', offset: 100, callback: "showStaggeredChildren('#statement', 'p, h1, h2', 'top')" },
   {selector: '.screenshots', offset: 100, callback: "showStaggeredChildren('.screenshots', 'img', '')" },
   {selector: '#video', offset: 100, callback: "showStaggeredChildren('#video', 'video', 'top')" }

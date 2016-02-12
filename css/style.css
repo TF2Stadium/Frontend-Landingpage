@@ -32,13 +32,6 @@ body, html {
   font-size: 11px;
 }
 
-.title {
-  font-family: Norwester, Open Sans, sans-serif;
-  font-weight: normal;
-  position: relative;
-  margin-top: 200px;
-}
-
 section {
   position: relative;
   min-height: 100%;
@@ -124,14 +117,16 @@ li p {
   padding: 20px;
 }
 
+.title {
+  font-family: Norwester, Open Sans, sans-serif;
+  font-weight: normal;
+  position: relative;
+}
+
 .title img {
-  position: absolute;
-  bottom: 70px;
-  height: 180px;
-  padding: 0 2px;
-  left: 50%;
-  transform: translateX(-50%);
-  width: auto;
+  max-width: 800px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .delayed {
@@ -224,7 +219,7 @@ li p {
   }
 
   section:first-of-type {
-    padding-top: 90px;
+    padding-top: 75px;
   }
 
   h1 {
@@ -236,18 +231,7 @@ li p {
   }
 
   .title img {
-    position: relative;
-    bottom: auto;
-    left: auto;
-    transform: none;
-    height: 120px;
     padding: 0 10px;
-    width: auto;
-  }
-
-  .title {
-    font-size: 9em;
-    margin-top: 0px;
   }
 
   .screenshots img {

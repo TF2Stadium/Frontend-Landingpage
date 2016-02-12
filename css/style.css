@@ -133,20 +133,6 @@ li p {
   width: auto;
 }
 
-#hero {
-  background: #000;
-  padding: 0;
-}
-
-.hero-image {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  background-image: url(../assets/img/background-image.jpg);
-  background-size: cover;
-  background-position: bottom;
-}
-
 .delayed {
   animation-delay: 0s;
 }
@@ -234,6 +220,10 @@ li p {
 
   section {
     padding: 120px;
+  }
+
+  section:first-of-type {
+    padding-top: 30px;
   }
 
   h1 {

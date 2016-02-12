@@ -1,16 +1,15 @@
 var options = [
   {selector: '#links-list', offset: 100, callback: "showStaggeredChildren('#links-list', 'li', 'bottom')" },
-  {selector: '#statement-text', offset: 100, callback: "showStaggeredChildren('#statement', 'p, h1, h2', 'top')" },
-  {selector: '.screenshots', offset: 100, callback: "showStaggeredChildren('.screenshots', 'img', '')" },
-  {selector: '#video', offset: 100, callback: "showStaggeredChildren('#video', 'video', 'top')" }
+
 ];
 
 $( document ).ready(function() {
-    var toAnimate = ['#statement-text *', '#statement h2', 'video', 'li', '.screenshots img'];
-    for (var i=0; i < toAnimate.length; i++) {
-      selector = toAnimate [i];
-      $(selector).addClass('hidden');
-    }
+  // '#statement-text *'
+//    var toAnimate = ['#statement h2', 'video', 'li', '.screenshots img'];
+//    for (var i=0; i < toAnimate.length; i++) {
+//      selector = toAnimate [i];
+//      $(selector).addClass('hidden');
+//    }
 });
 
 Materialize.scrollFire(options);

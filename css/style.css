@@ -54,6 +54,7 @@ video {
   margin: 0 auto;
   width: 100%;
   margin-bottom: 100px;
+  max-width: 800px;
 }
 
 .center {
